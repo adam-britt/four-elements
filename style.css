@@ -1,0 +1,116 @@
+body {
+	font-family: arial;
+	padding: 0;
+	margin: 0;
+}
+.infierno {
+	width: 100%;
+	height: 100vh;
+	float: left;
+	background-color: black;
+}
+.infierno h1 {
+	color: white;
+	float: center;
+	font-size: 42px;
+	margin-top: 15vh;
+	text-align: center;
+	text-transform: uppercase;
+}
+.cielo {
+	max-width: 940px;
+	margin: auto;
+	width: 100%;
+	display: table;
+	margin-top: 10vh;
+}
+.hover {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+}
+.hover li {
+	position: relative;
+	max-width: 214px;
+	background-color: #4f4f4f;
+	width: 100%;
+	height: 400px;
+	margin: 10px;
+	clear: center;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.h1, .h2, .h3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 135px;
+	background-color: black;
+	transition-duration: 1.2s;
+	color: white;
+}
+.h2 {
+	top: 133px;
+	width: 100%;
+	left: 293px;
+}
+.h3 {
+	top: 265px;
+}
+.hover li:hover .h1, .hover li:hover .h3 {
+	width: 100%;
+}
+.hover li:hover .h2 {
+	left: 0;
+}
+.top {
+	position: absolute;
+	top: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 22px;
+	z-index: 1;
+	left: 400px;
+	transform: translate(-50%);
+	width: 134px;
+	letter-spacing: 1px;
+	transition-duration: 1.3s;
+	text-align: center;
+}
+.middle {
+	position: absolute;
+	top: 170px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 22px;
+	z-index: 1;
+	left: -250px;
+	transform: translate(-50%);
+	width: 134px;
+	letter-spacing: 1px;
+	transition-duration: 1.3s;
+	text-align: center;
+}
+.bottom {
+	position: absolute;
+	top: 300px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 22px;
+	z-index: 1;
+	left: 400px;
+	transform: translate(-50%);
+	width: 134px;
+	letter-spacing: 1px;
+	transition-duration: 1.3s;
+	text-align: center;
+}
+.hover li:hover h2{
+	left: 50%;
+}
+.img {
+	background-position: center;
+	background-repeat: no-repeat;
+}
